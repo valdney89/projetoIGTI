@@ -2,17 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { SplashScreenModule } from './splash-screen/splash-screen.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SplashScreenComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, SplashScreenModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
