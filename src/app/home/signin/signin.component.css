@@ -1,0 +1,21 @@
+.signin---cadastrar {
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.signin---cadastrar a {
+  font-weight: 700;
+  color: #1b0f30;
+}
+
+#signin h4 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 70px 0;
+}
+
+#signin .btn-principal {
+  width: 100%;
+}

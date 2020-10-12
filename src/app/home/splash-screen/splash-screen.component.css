@@ -1,0 +1,41 @@
+#splash-screen {
+  margin-top: 30px;
+}
+
+#splash-screen .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.picsum-img-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.carousel-caption {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 0;
+}
+.carousel-caption p {
+  color: #1b0f30b8;
+}
+
+.carousel-caption h3 {
+  color: #1b0f30;
+  font-weight: 700;
+}
+
+.dashboard--sair {
+  font-size: 14px;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 2px solid #ff717b;
+  z-index: 20;
+  position: relative;
+  cursor: pointer;
+}

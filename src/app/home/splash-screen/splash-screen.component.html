@@ -1,0 +1,18 @@
+<section id="splash-screen">
+  <div class="container">
+    <div class="dashboard--sair" [routerLink]="['/login']">Pular</div>
+    <div class="dashboard--hero">
+      <ngb-carousel *ngIf="banners" [interval]="0">
+        <ng-template ngbSlide *ngFor="let banner of banners">
+          <div class="picsum-img-wrapper">
+            <img [src]="banner.url" alt="banner.alt" />
+          </div>
+          <div class="carousel-caption">
+            <h3>{{ banner.title }}</h3>
+            <p>{{ banner.description }}</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</section>
