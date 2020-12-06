@@ -3,8 +3,13 @@
     <h4>Bem vindo<br />de volta!</h4>
 
     <form class="form mt-4">
+      <p>Faça seu login</p>
       <div class="form-group">
-        <input class="form-control" placeholder="Informe seu nome" autofocus />
+        <input
+          class="form-control"
+          placeholder="Informe seu usuário"
+          autofocus
+        />
       </div>
 
       <div class="form-group">
@@ -17,9 +22,14 @@
 
       <button type="submit" class="btn-principal">acessar</button>
     </form>
+    <!--TODO: Criar API e fazer funcionar o cadastro -->
 
-    <div class="signin---cadastrar">
+    <div class="signin--cadastrar">
       Não possui conta?<a [routerLink]="['/cadastrar']">Cadastre-se agora!</a>
+    </div>
+
+    <div class="signin--cadastrar">
+      <a [routerLink]="['']">Pular login (temporário)</a>
     </div>
   </div>
 </section>

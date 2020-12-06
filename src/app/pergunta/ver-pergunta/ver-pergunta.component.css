@@ -1,0 +1,37 @@
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+#ver-pergunta--body {
+  margin-top: 32px;
+}
+
+.ver-pergunta--title {
+  margin-bottom: 24px;
+}
+
+.ver-pergunta--assunto,
+.ver-pergunta--data {
+  font-size: 12px;
+}
+
+.ver-pergunta--assunto span,
+.ver-pergunta--data span {
+  font-weight: 600;
+}
+
+.ver-pergunta--pergunta-feita {
+  margin-top: 24px;
+}
+
+.ver-pergunta-resposta {
+  margin-top: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #ff717b;
+}

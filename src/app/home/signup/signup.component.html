@@ -1,1 +1,39 @@
-<p>signup works!</p>
+<section id="signup">
+  <div class="container">
+    <h4>Criar novo usuário</h4>
+
+    <form class="form mt-4">
+      <p>Preencha seus dados</p>
+      <div class="form-group">
+        <input class="form-control" placeholder="Informe seu nome" autofocus />
+      </div>
+
+      <div class="form-group">
+        <input class="form-control" placeholder="Informe seu e-mail" />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Informe sua senha"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Confirme sua senha"
+        />
+      </div>
+
+      <button type="submit" class="btn-principal">cadastrar</button>
+
+      <div class="signup--cadastrar">
+        Já possui conta?<a [routerLink]="['/login']">Entrar agora!</a>
+      </div>
+    </form>
+    <!--TODO: Criar API e fazer funcionar o login -->
+  </div>
+</section>

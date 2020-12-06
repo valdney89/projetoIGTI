@@ -1,0 +1,24 @@
+.twocols--itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px #ccc solid;
+  padding: 16px 0;
+  font-size: 14px;
+}
+
+.twocols--item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+}
+
+.twocols--item:last-child {
+  margin-left: 16px;
+}
+
+.twocols--item--direito {
+  text-align: right;
+}

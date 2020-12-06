@@ -1,0 +1,7 @@
+<article class="nav--link" *ngIf="recebeNavs">
+  <ul class="nav nav--links">
+    <li *ngFor="let nav of recebeNavs">
+      <a [routerLink]="[nav.url]">{{ nav.title }}</a>
+    </li>
+  </ul>
+</article>

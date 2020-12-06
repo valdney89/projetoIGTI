@@ -1,0 +1,14 @@
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+#lista-perguntas--body {
+  margin-top: 32px;
+}
+
+.lista-perguntas--perguntas {
+  margin: 32px 0;
+}

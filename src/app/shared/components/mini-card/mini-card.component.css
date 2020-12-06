@@ -1,0 +1,34 @@
+.mini--cards ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.mini--cards li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px;
+  color: #545454;
+  text-align: center;
+  width: 33%;
+  word-break: break-word;
+}
+
+.mini--cards li:last-child {
+  padding-right: 0;
+}
+
+.mini--cards li:first-child {
+  padding-left: 0;
+}
+
+.mini--cards li span {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  color: #ff717b;
+  font-weight: 700;
+}

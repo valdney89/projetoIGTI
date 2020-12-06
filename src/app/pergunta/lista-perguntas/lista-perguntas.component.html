@@ -1,0 +1,14 @@
+<section id="lista-perguntas--body">
+  <div class="container">
+    <h2 class="lista-perguntas--title">Perguntas Enviadas</h2>
+    <article class="lista-perguntas--perguntas">
+      <app-lista-twocols *ngFor="let lista of listaPerguntas" [id]="lista.id">
+        <div class="item-esquerda">
+          {{ lista.pergunta }}
+        </div>
+        <div class="item-1">Data: {{ lista.data | date: "dd-MM-yyyy" }}</div>
+        <div class="item-2">Tema: {{ lista.assunto }}</div>
+      </app-lista-twocols>
+    </article>
+  </div>
+</section>

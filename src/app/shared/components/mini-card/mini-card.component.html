@@ -1,0 +1,8 @@
+<article class="mini--cards" *ngIf="recebeMiniCards">
+  <ul>
+    <li *ngFor="let card of recebeMiniCards">
+      <span>{{ card.total }}</span>
+      <div class="mini--cards--texto">{{ card.nome }}</div>
+    </li>
+  </ul>
+</article>

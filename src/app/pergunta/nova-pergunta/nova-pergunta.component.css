@@ -1,0 +1,22 @@
+.btn-principal {
+  width: 100%;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+#nova-pergunta--body {
+  margin-top: 32px;
+}
+
+.nova-pergunta--para {
+  font-size: 12px;
+}
+
+.nova-pergunta--para span {
+  font-weight: 600;
+}

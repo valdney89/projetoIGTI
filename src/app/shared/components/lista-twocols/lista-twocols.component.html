@@ -1,0 +1,14 @@
+<div class="twocols--itens">
+  <div class="twocols--item" [routerLink]="['/pergunta', id]">
+    <ng-content select=".item-esquerda"></ng-content>
+    <!--Limitar caracteres-->
+  </div>
+  <div class="twocols--item">
+    <div class="twocols--item--direito">
+      <ng-content select=".item-1"></ng-content>
+    </div>
+    <div class="twocols--item--direito">
+      <ng-content select=".item-2"></ng-content>
+    </div>
+  </div>
+</div>

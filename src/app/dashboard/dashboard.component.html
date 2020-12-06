@@ -1,0 +1,18 @@
+<section id="dashboard--body">
+  <div class="container">
+    <article class="dashboard--userLogado">
+      <h2 class="userLogged--name">Olá, {{ user.name }}</h2>
+      <div class="userLogged--rank">
+        <fa-icon [icon]="faStar" size="2x"></fa-icon>
+        <span>{{ user.rank }}</span>
+      </div>
+    </article>
+    <article class="dashboard--carousel">
+      <app-carousel [recebeImages]="banners"></app-carousel>
+    </article>
+    <h3>Pergunte</h3>
+    <app-nav-link [recebeNavs]="navs"></app-nav-link>
+    <h3>Meu Histórico</h3>
+    <app-mini-card [recebeMiniCards]="historico"></app-mini-card>
+  </div>
+</section>

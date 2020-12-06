@@ -1,0 +1,23 @@
+.nav--links {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nav--links li {
+  min-width: 125px;
+  padding: 24px 12px;
+  margin: 0 16px 0 0;
+  border-radius: 10px;
+  background-color: #ff717b;
+  box-shadow: 3px 3px 10px #00000024;
+  text-align: center;
+}
+
+.nav--links li a {
+  color: #fff;
+}
